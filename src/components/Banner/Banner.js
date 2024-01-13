@@ -6,7 +6,7 @@ function Banner(props) {
     return (
         <div className="bannerImageContainer">
             <div className="imageOverlay">
-                <p id="bannerText">{props.text}</p>
+                {props.text && <p id="bannerText">{props.text}</p>}
             </div>
             <img id="bannerImage" src={props.img} alt="banner" />
         </div>

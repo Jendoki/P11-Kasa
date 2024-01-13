@@ -12,6 +12,16 @@
     width: 100%;
 }
 
+.image-index {
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
 .chevron-left {
     border: none;
     background-color: Transparent;
@@ -33,5 +43,9 @@
 
     .chevron-right {
         right: 20px;
+    }
+
+    .image-index {
+        display: none;
     }
 }

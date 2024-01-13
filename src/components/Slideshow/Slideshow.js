@@ -31,6 +31,9 @@ function Slideshow(props) {
                 )}
                 <img className="slideshow-img" src={props.pictures[currentImageIndex]} alt='logement' />
                 {props.pictures.length === 1 ? null : (
+                    <p className="image-index">{currentImageIndex + 1}/{props.pictures.length}</p>
+                )}
+                {props.pictures.length === 1 ? null : (
                     <button className="chevron-right" onClick={next}><ChevronRight /></button>
                 )}
             </div>
