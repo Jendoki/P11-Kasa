@@ -1,0 +1,18 @@
+#apropos-content {
+    margin: 0px 200px;
+}
+
+#collapse {
+    margin: 20px 0px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+    #apropos-content {
+        margin: 20px;
+    }
+
+    #collapse {
+        margin: 20px 0px;
+        width: 95%;
+    }
+}

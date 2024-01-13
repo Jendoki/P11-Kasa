@@ -1,0 +1,10 @@
+#home-content {
+    margin: 100px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #home-content {
+        width: 100vw;
+        margin: 0px;
+    }
+ }

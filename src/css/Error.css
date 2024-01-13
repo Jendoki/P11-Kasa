@@ -1,0 +1,19 @@
+#error-content {
+    text-align: center;
+    color: #FF6060;
+}
+
+#error-content h1 {
+    font-size: 200px;
+    margin: 0px;
+}
+
+#comment {
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+#link {
+    font-size: 15px;
+    margin: 100px 0px;
+}

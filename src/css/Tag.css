@@ -1,0 +1,32 @@
+.tag {
+    height: 25px;
+    width: 180px;
+    background-color: #ff6060;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.tag-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 10px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+    .tag {
+        width: 84px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    .tag-text {
+        font-size: 10px;
+    }
+}

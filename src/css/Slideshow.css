@@ -1,0 +1,37 @@
+.slideshow {
+    margin: 30px 100px;
+    height: 415px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.slideshow-img {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+.chevron-left {
+    border: none;
+    background-color: Transparent;
+    position: absolute;
+}
+
+.chevron-right {
+    border: none;
+    background-color: Transparent;
+    position: absolute;
+    right: 100px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+    .slideshow {
+        margin: 20px;
+        height: 255px;
+    }
+
+    .chevron-right {
+        right: 20px;
+    }
+}

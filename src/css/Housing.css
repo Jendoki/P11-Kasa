@@ -1,0 +1,121 @@
+.housing-container {
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ff6060;
+
+}
+
+.housing-container h1 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.housing-location {
+    line-height: 0px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+    margin: 0px;
+    margin-bottom: 20px;
+
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.housing-host {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.housing-host-name {
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+}
+
+.housing-host-img {
+    border-radius: 100%;
+    max-width: 80px;
+    margin-left: 10px;
+}
+
+.housing-rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.housing-collapses {
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { 
+    .housing-container {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .housing-container h1 {
+        font-size: 18px;
+        line-height: 142.6%; 
+    }
+
+    .housing-location {
+        font-size: 14px;
+    }
+
+    .tags-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .host-and-rating-container {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px;
+        justify-content: space-between;
+    }
+
+    .housing-rating {
+        margin: 20px 0px;
+        justify-content: flex-start;
+    }
+
+    .housing-host-name {
+        font-size: 12px;
+    }
+
+    .housing-host-img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .housing-collapses {
+        margin: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+}
